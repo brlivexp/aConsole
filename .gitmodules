@@ -1,0 +1,3 @@
+[submodule "src/aConsole_/SDK"]
+	path = src/aConsole_/SDK
+	url = https://github.com/Zeex/samp-plugin-sdk

@@ -14,49 +14,52 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="SDK">
-      <UniqueIdentifier>{b383be9c-0521-48dc-8805-2865403b94a5}</UniqueIdentifier>
+      <UniqueIdentifier>{d1ff7ad6-10b1-4b80-8930-de8700a043c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\amx">
+      <UniqueIdentifier>{4422daf8-572a-4cb9-8173-e1a475061efa}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Downloads\SDK\plugin.h">
-      <Filter>SDK</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Downloads\SDK\plugincommon.h">
-      <Filter>SDK</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Downloads\SDK\amx\amx.h">
-      <Filter>SDK</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Downloads\SDK\amx\getch.h">
-      <Filter>SDK</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Downloads\SDK\amx\sclinux.h">
-      <Filter>SDK</Filter>
-    </ClInclude>
     <ClInclude Include="resources.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\plugin.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\plugincommon.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\amx\amx.h">
+      <Filter>SDK\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\amx\getch.h">
+      <Filter>SDK\amx</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\amx\sclinux.h">
+      <Filter>SDK\amx</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Downloads\SDK\amxplugin.cpp">
-      <Filter>SDK</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Downloads\SDK\amx\getch.c">
-      <Filter>SDK</Filter>
-    </ClCompile>
     <ClCompile Include="resources.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\amxplugin.cpp">
+      <Filter>SDK</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="modulo.def">
       <Filter>Source Files</Filter>
+    </None>
+    <None Include="SDK\.git">
+      <Filter>SDK</Filter>
     </None>
   </ItemGroup>
 </Project>
