@@ -30,6 +30,5 @@ using namespace std;
 class main
 {
 public:
-	static cell AMX_NATIVE_CALL XXT_MyPassWord(AMX *dataAmx, cell *aParams);
 };
 
